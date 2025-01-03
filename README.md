@@ -27,3 +27,5 @@
 <!-- prettier-ignore-end -->
 
 <!-- IMAGE-LIST:END -->
+
+[Exactly 42 lines of code - pinwheel animation](assets/pinwheel.gif)
