@@ -47,6 +47,6 @@ function pinwheel(x, y, m, n, scale, a, color) {
   pop();
 }
 
-// function mousePressed() {
-//   save("3.jpg");
-// }
+function mousePressed() {
+  save("3.jpg");
+}
