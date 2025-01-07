@@ -1,5 +1,3 @@
-# https://colab.research.google.com/drive/1TzjyVFra9GiX-1xpNRS7hooTJcEx3022#scrollTo=EzTpCHKg3Nq2
-
 # https://matplotlib.org/stable/api/markers_api.html#module-matplotlib.markers
 
 # https://matplotlib.org/stable/gallery/color/set_alpha.html
@@ -24,10 +22,8 @@ def make_colormap(n_bins, color_choices=None):
         colors = colors2
     color_name1 = random.choice(list(colors.keys()))
     color_name2 = random.choice(list(colors.keys()))
-    #color_name3 = random.choice(list(colors.keys()))
     color1 = colors[color_name1]
     color2 = colors[color_name2]
-    #color3 = colors[color_name3]
     cmap_name = color_name1 + '/' + color_name2
     color_choices = [color1, color2]
     for n_bin in range(n_bins):
