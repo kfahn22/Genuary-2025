@@ -13,7 +13,7 @@
 // I am using the method for choosing colors from Dr. Eric Gossett https://www.youtube.com/watch?v=0wfPlzPvZiQ
 
 let n = 10;
-let sw = 1; // Adjust as desired to change look of rug
+let sw = 2; // Adjust as desired to change look of rug
 let palette = [];
 let colorIndexArray = [];
 

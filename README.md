@@ -19,6 +19,15 @@
     margin-left: auto;
     margin-right: auto;" width="500" /><br /><sub><b>January 4<br/>Black Upon Black</b></sub></a></td>
     </tr>
+    <tr>
+      <td align="center"><a href=""> <img class="img" src="assets/5.jpg" alt="Isometric Art (No vanishing points)." style="vertical-align:top;" width="500" /><br /><sub><b>January 5<br/>Isometric Art (No vanishing points).</b></sub></a></td>
+      <td align="center"><a href=""> <img class="img" src="assets/.jpg" alt="layers on layers" style="vertical-align:top;" width="500" /><br /><sub><b>January 6<br/>Landscape with primitive Shapes</b></sub></a></td>
+     <td align="center"><a href=""> <img class="img" src="assets/7.png" alt="Use software that is not intended to create art or images." style=" display: block;
+    margin-left: auto;
+    margin-right: auto;" width="500" /><br /><sub><b>January 7<br/>Use software that is not intended to create art or images.</b></sub></a></td>
+    
+    </tr>
+   
    
  </tbody>
 </table>
@@ -29,3 +38,5 @@
 <!-- IMAGE-LIST:END -->
 
 ![Exactly 42 lines of code - pinwheel animation](assets/pinwheel.gif)
+
+![Landscape with primitive shapes](assets/terrain.gif)

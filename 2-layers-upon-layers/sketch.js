@@ -70,10 +70,6 @@ function setup() {
   // Add p5gain library
   p5grain.setup();
 
-  resetButton = createButton("Reset");
-  resetButton.position(width + 110, 5);
-  resetButton.mousePressed(reset);
-
   //fractal = lsystem.snake_kolam;
   fractal = lsystem.hilbert;
   setRule(fractal);
@@ -208,23 +204,6 @@ function turtle() {
       endShape();
     }
   }
-}
-
-function reset() {
-  push();
-
-  selectedShape = new Zigzag(0, 0, length * shapeScale, radians(0));
-  selectedShape.addPoints();
-  translate(width * 0.05, height * 0.05);
-  background(0);
-  setRule(fractal);
-  for (let i = 0; i < level; i++) {
-    generate();
-  }
-  turtle();
-  pop();
-
-  //applyChromaticGrain(42);
 }
 
 // Function to save the canvas as an image when 's' key is pressed

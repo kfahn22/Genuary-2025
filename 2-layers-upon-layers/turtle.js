@@ -1,5 +1,5 @@
 class Turtle {
-  constructor(lsystemArrays, images) {
+  constructor(lsystemArrays) {
     this.lsystemArrays = lsystemArrays;
     for (let i = 0; i < this.lsystemArrays.length; i++) {
       this.lsystemValues = this.lsystemArrays[i];
