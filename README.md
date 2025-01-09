@@ -30,6 +30,12 @@
     margin-right: auto;" width="500" /><br /><sub><b>January 8<br/>Draw one million of something</b></sub></a></td>
     
     </tr>
+    <tr>
+      <td align="center"><a href=""> <img class="img" src="assets/9.jpg" alt="The textile design patterns of public transport seating" style="vertical-align:top;" width="500" /><br /><sub><b>January 9<br/>The textile design patterns of public transport seating</b></sub></a></td>
+      
+    
+    
+    </tr>
    
    
  </tbody>
