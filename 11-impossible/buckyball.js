@@ -1,8 +1,7 @@
 class Buckyball {
-  constructor(r, palette, images, font) {
+  constructor(r, images, font) {
     this.r = r;
     this.images = images;
-    this.palette = palette;
     this.font = font;
     this.vert = [];
     this.faces = [];
