@@ -46,3 +46,5 @@
 ![Exactly 42 lines of code - pinwheel animation](assets/pinwheel.gif)
 
 ![Landscape with primitive shapes](assets/terrain.gif)
+
+![Buckyball with Appalachian Trail photos](https://kfahn22.github.io/Genuary-2025/)
