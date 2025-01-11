@@ -2,7 +2,7 @@
 
 let buckyball;
 let images = [];
-let frames = 180;
+let frames = 120;
 let angle = 0;
 let font;
 
