@@ -48,4 +48,4 @@
 
 ![Landscape with primitive shapes](assets/terrain.gif)
 
-![Buckyball with Appalachian Trail photos](https://kfahn22.github.io/Genuary-2025/)
+![Buckyball with Appalachian Trail photos](assets/bucky.gif)
