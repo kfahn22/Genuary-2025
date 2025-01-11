@@ -44,8 +44,16 @@
 
 <!-- IMAGE-LIST:END -->
 
-![Exactly 42 lines of code - pinwheel animation](assets/pinwheel.gif)
+## GIFS
 
-![Landscape with primitive shapes](assets/terrain.gif)
+<p align="center"><img src="assets/pinwheel.gif" alt="Exactly 42 lines of code - pinwheel animation" width="500px"></p>
 
-![Buckyball with Appalachian Trail photos](assets/bucky.gif)
+<p align="center"><img src="assets/terrain.gif" alt="Landscape with primitive shapes" width="500px"></p>
+
+<p align="center"><img src="assets/bucky.gif" alt="Buckyball with images from the Appalachian Trail" width="500px"></p>
+
+<!-- ![Exactly 42 lines of code - pinwheel animation](assets/pinwheel.gif) -->
+
+<!-- ![Landscape with primitive shapes](assets/terrain.gif)
+
+![Buckyball with Appalachian Trail photos](assets/bucky.gif) -->
