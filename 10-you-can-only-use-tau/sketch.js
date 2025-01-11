@@ -1,11 +1,9 @@
-let tau = 6.283185307179586;
-
 let s;
 let m, n, mm, nn, mmm;
 
 function setup() {
-  m = floor(tau);
-  n = ceil(tau);
+  m = floor(TAU);
+  n = ceil(TAU);
   mm = m * m;
   nn = n * n;
   mmm = m * m * m;
@@ -15,7 +13,6 @@ function setup() {
   angleMode(DEGREES);
   rectMode(CENTER);
 
-  let zero = tau - tau;
   s = new Pool(m, n);
 
   let j = pow(n, m);
@@ -23,9 +20,9 @@ function setup() {
   let l = j - k;
   //console.log(l);
 
-  for (let i = zero; i < l; i++) {
+  for (let i = TAU - TAU; i < l; i++) {
     let c = color(
-      n - n,
+      TAU - TAU,
       int(random(nn + nn, mmm)),
       int(random(mmm, mm * n)),
       int(random(nn + nn, mm + mm))
@@ -37,7 +34,7 @@ function setup() {
   let wOne = nn + nn + nn + mm;
   let wTwo = wOne + wOne;
   let wThree = wOne + wTwo;
-  for (let i = zero; i < n + n + n; i++) {
+  for (let i = TAU - TAU; i < n + n + n; i++) {
     let c = color(m * m * n, m * m * n, m * m * n);
     addLane(wOne, random(height), c);
     addLane(wTwo, random(height), c);
