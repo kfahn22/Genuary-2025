@@ -36,6 +36,7 @@
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/12-subdivision"> <img class="img" src="assets/12.jpg" alt="Subdivision" style="vertical-align:top;" width="500" /><br /><sub><b>January 12<br/>Subdivision</b></sub></a></td>
     </tr>
     <tr>
+      <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/13-triangles-and-nothing-else"> <img class="img" src="assets/13.jpg" alt="Triangles and Nothing else" style="vertical-align:top;" width="500" /><br /><sub><b>January 13<br/>Triangles and Nothing else</b></sub></a></td>
     </tr>
    
    

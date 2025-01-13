@@ -1,12 +1,12 @@
 class Pattern {
-  constructor(n, url) {
+  constructor(buffer, n, overlap, palette) {
+    this.buffer = buffer;
     this.n = n; // Number of sides
     this.ctr = createVector(width / 2, height / 2);
-    this.radius = height / 2.5;
-    this.overlap = random(0.5, 1.0); // 1 no overlap
+    this.radius = height / 2;
+    this.overlap = overlap;
     this.polygons = [];
-    this.url = url;
-    this.palette = this.generatePaletteArray(this.url);
+    this.palette = palette;
   }
 
   extractHexCodes(url) {
@@ -20,8 +20,9 @@ class Pattern {
     let r = parseInt(hex.substring(0, 2), 16);
     let g = parseInt(hex.substring(2, 4), 16);
     let b = parseInt(hex.substring(4, 6), 16);
-    let alpha = map(this.overlap, 0.25, 1.0, 50, 225);
+    let alpha = map(this.overlap, 0.5, 1.0, 50, 255);
     return color(r, g, b, alpha);
+    //return color(r, g, b, int(random(50, 180)));
   }
 
   generatePaletteArray(url) {
@@ -35,10 +36,10 @@ class Pattern {
       let points = this.polygon(center, radius, this.n);
       this.polygons.push({ points, color: this.palette[colIdx] });
     } else {
-      // Radius and distance for smaller polygons
+      // Radius and distance for smaller hexagons
       let newRadius = radius / 3;
-      let distance = 2 * newRadius;
-
+      //let distance = 2*newRadius;
+      let distance = ((1 + sqrt(5)) / 2) * newRadius;
       // Draw central shape
       this.drawPattern(center, newRadius, depth - 1, colIdx);
 
@@ -65,21 +66,24 @@ class Pattern {
     return points;
   }
 
-  //hexApothem = (sqrt(3) / 2) * hexSize;
-  //pentApothem = pentSize / (2 * tan(radians(36)));
-  apothem(s, n) {
-    return s / (2 * tan(180 / n));
+  // Apothem for equilateral triangle
+  triApothem(s) {
+    return s / (6 * tan(30));
   }
 
   show() {
-    for (let q of this.polygons) {
-      noStroke();
-      fill(q.color);
-      beginShape();
-      for (let p of q.points) {
-        vertex(p.x, p.y);
+    for (let i = 0; i < this.quads.length; i++) {
+      this.buffer.angleMode(DEGREES);
+      this.buffer.noStroke();
+      this.buffer.fill(this.polygons[i].color);
+      this.buffer.push();
+      this.buffer.rotate(30);
+      this.buffer.beginShape();
+      for (let p of this.polygons[i].points) {
+        this.buffer.vertex(p.x, p.y);
       }
-      endShape(CLOSE);
+      this.buffer.endShape(CLOSE);
+      this.buffer.pop();
     }
   }
 }
