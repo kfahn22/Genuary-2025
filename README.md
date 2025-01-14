@@ -37,8 +37,6 @@
     </tr>
     <tr>
       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/13-triangles-and-nothing-else"> <img class="img" src="assets/13.jpg" alt="Triangles and Nothing else" style="vertical-align:top;" width="500" /><br /><sub><b>January 13<br/>Triangles and Nothing else</b></sub></a></td>
-    </tr>
-     <tr>
       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/14-pure-black-and-white-no-gray"> <img class="img" src="assets/14b.jpg" alt="Black and White. No Gray" style="vertical-align:top;" width="500" /><br /><sub><b>January 14<br/>Black and White. No Gray</b></sub></a></td>
     </tr>
    
