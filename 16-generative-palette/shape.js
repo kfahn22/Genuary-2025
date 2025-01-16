@@ -1,3 +1,5 @@
+// https://kfahn22.github.io/shape_playground/
+
 const e = 2.71828;
 
 class Shape {
@@ -421,7 +423,7 @@ class Shape {
       this.points.push(createVector(x, y));
     }
   }
-  
+
   // https://mathcurve.com/courbes2d.gb/abdank/abdank.shtml
 
   zigzag() {
@@ -454,9 +456,8 @@ class Shape {
   //   pop();
   // }
 
-  openShow(x, y) {
+  openShow() {
     push();
-    translate(x, y);
     rotate(this.angle);
     beginShape();
     for (let p of this.points) {

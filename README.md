@@ -39,6 +39,7 @@
       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/13-triangles-and-nothing-else"> <img class="img" src="assets/13.jpg" alt="Triangles and Nothing else" style="vertical-align:top;" width="500" /><br /><sub><b>January 13<br/>Triangles and Nothing else</b></sub></a></td>
       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/14-pure-black-and-white-no-gray"> <img class="img" src="assets/14b.jpg" alt="Black and White. No Gray" style="vertical-align:top;" width="500" /><br /><sub><b>January 14<br/>Black and White. No Gray</b></sub></a></td>
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/15-design-a-rug"> <img class="img" src="assets/15.jpg" alt="Design a rug" style="vertical-align:top;" width="500" /><br /><sub><b>January 15<br/>Design a rug</b></sub></a></td>
+       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/16-generative-palette"> <img class="img" src="assets/16.jpg" alt="Generative Palette" style="vertical-align:top;" width="500" /><br /><sub><b>January 16<br/>Generative Palette</b></sub></a></td>
     </tr>
    
    
@@ -61,4 +62,6 @@
 
 <p align="center"><img src="assets/icos.gif" alt="Icosahedron with recursive triangles" width="500px"></p>
 
-<p align="center"><img src="assets/cornu.gif" alt="Icosahedron with recursive triangles" width="500px"></p>
+<p align="center"><img src="assets/cornu.gif" alt="Cornu spiral gif" width="500px"></p>
+
+<p align="center"><img src="assets/phyllotaxis.gif" alt="Generative Palette" width="500px"></p>
