@@ -41,6 +41,9 @@
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/15-design-a-rug"> <img class="img" src="assets/15.jpg" alt="Design a rug" style="vertical-align:top;" width="500" /><br /><sub><b>January 15<br/>Design a rug</b></sub></a></td>
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/16-generative-palette"> <img class="img" src="assets/16.jpg" alt="Generative Palette" style="vertical-align:top;" width="500" /><br /><sub><b>January 16<br/>Generative Palette</b></sub></a></td>
     </tr>
+    <tr>
+     <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/17-what-happens-if-pi-is-4"> <img class="img" src="assets/17.jpg" alt="What happens if pi is 4" style="vertical-align:top;" width="500" /><br /><sub><b>January 15<br/>What happens if pi is 4</b></sub></a></td>
+    </tr>
    
    
    

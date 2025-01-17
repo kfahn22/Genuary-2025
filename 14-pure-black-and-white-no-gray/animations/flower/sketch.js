@@ -6,8 +6,6 @@
 
 let level = 3;
 let length = 20;
-// let level = 3;
-// let length = 20;
 let shapeScale = 0.8;
 
 let axiom;

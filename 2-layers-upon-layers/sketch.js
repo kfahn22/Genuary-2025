@@ -114,8 +114,7 @@ function setup() {
   }
   push();
   translate(width * 0.0, height * 1); // hilbert
- // translate(width * 0.06, height * 0.06);
- // rotate(random(radians(90, 90)));
+ 
   for (let i = 0; i < level; i++) {
     generate();
   }
