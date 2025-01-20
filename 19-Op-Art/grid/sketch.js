@@ -17,6 +17,7 @@ function setup() {
   rectMode(CENTER);
 
   // Need noStroke for gradial gradient
+  // https://github.com/alterebro/p5.fillGradient
   noStroke();
   // Add radial gradient
   fillGradient("radial", {
