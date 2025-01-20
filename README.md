@@ -44,6 +44,7 @@
     <tr>
      <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/17-what-happens-if-pi-is-4"> <img class="img" src="assets/17.jpg" alt="What happens if pi is 4" style="vertical-align:top;" width="500" /><br /><sub><b>January 17<br/>What happens if pi is 4</b></sub></a></td>
       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/18-what-does-wind-look-like?"> <img class="img" src="assets/18.jpg" alt="What does wind look like" style="vertical-align:top;" width="500" /><br /><sub><b>January 18<br/>What does wind look like?</b></sub></a></td>
+        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/19-Op-Art"> <img class="img" src="assets/19.jpg" alt="Op Art" style="vertical-align:top;" width="500" /><br /><sub><b>January 19<br/>Op Art</b></sub></a></td>
     </tr>
    
    

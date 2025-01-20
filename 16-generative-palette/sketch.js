@@ -45,7 +45,6 @@ function draw() {
 
   // Easing function to coordinate change in num and s from chatGPT
   let phase = sin(TWO_PI * t)*0.5  + 1 / 2; // Maps sin(t) from -1..1 to 0..1
-  // let phase = (sin(TWO_PI * t) + 1) / 2; // Maps sin(t) from -1..1 to 0..1
   t += 1 / frames; // Increment time
   if (t >= 1) {
     t = 0; // Reset after a full cycle
