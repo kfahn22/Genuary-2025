@@ -77,4 +77,4 @@
 <p align="center"><img src="assets/phyllotaxis.gif" alt="Phyllotaxis" width="500px"></p>
 
 
-<p align="center"><img src="assets/collisions.gif" alt="collisions" width="500px"></p>
+<p align="center"><img src="assets/collision.gif" alt="collisions" width="500px"></p>
