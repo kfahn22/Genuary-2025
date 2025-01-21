@@ -47,6 +47,10 @@
         <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/19-Op-Art"> <img class="img" src="assets/19.jpg" alt="Op Art" style="vertical-align:top;" width="500" /><br /><sub><b>January 19<br/>Op Art</b></sub></a></td>
            <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/20-generative-architecture"> <img class="img" src="assets/20.jpg" alt="Op Art" style="vertical-align:top;" width="500" /><br /><sub><b>January 20<br/>Generative Architecture</b></sub></a></td>
     </tr>
+    <tr>
+   <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/21-create-a-collision-system"> <img class="img" src="assets/21.jpg" alt="" style="vertical-align:top;" width="500" /><br /><sub><b>January 21<br/>Create a collision detection system (no libraries allowed)</b></sub></a>
+    </td>
+    </tr>
    
    
    
@@ -70,4 +74,7 @@
 
 <p align="center"><img src="assets/cornu.gif" alt="Cornu spiral gif" width="500px"></p>
 
-<p align="center"><img src="assets/phyllotaxis.gif" alt="Generative Palette" width="500px"></p>
+<p align="center"><img src="assets/phyllotaxis.gif" alt="Phyllotaxis" width="500px"></p>
+
+
+<p align="center"><img src="assets/collisions.gif" alt="collisions" width="500px"></p>
