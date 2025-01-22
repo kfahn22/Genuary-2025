@@ -48,7 +48,9 @@
            <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/20-generative-architecture"> <img class="img" src="assets/20.jpg" alt="Op Art" style="vertical-align:top;" width="500" /><br /><sub><b>January 20<br/>Generative Architecture</b></sub></a></td>
     </tr>
     <tr>
-   <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/21-create-a-collision-system"> <img class="img" src="assets/21.jpg" alt="" style="vertical-align:top;" width="500" /><br /><sub><b>January 21<br/>Create a collision detection system (no libraries allowed)</b></sub></a>
+   <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/21-create-a-collision-system"> <img class="img" src="assets/21.jpg" alt="Create a collision detection system (no libraries allowed)" style="vertical-align:top;" width="500" /><br /><sub><b>January 21<br/>Create a collision detection system (no libraries allowed)</b></sub></a>
+    </td>
+       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/22-gradients-only"> <img class="img" src="assets/22.jpg" alt="Gradients Only" style="vertical-align:top;" width="500" /><br /><sub><b>January 22<br/>Gradients Only</b></sub></a>
     </td>
     </tr>
    
