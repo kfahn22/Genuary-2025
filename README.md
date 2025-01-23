@@ -52,6 +52,9 @@
     </td>
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/22-gradients-only"> <img class="img" src="assets/22.jpg" alt="Gradients Only" style="vertical-align:top;" width="500" /><br /><sub><b>January 22<br/>Gradients Only</b></sub></a>
     </td>
+      </td>
+       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/23-Inspired-by-brutalism"> <img class="img" src="assets/22.jpg" alt="Inspired by brutalism." style="vertical-align:top;" width="500" /><br /><sub><b>January 23<br/>Inspired by brutalism.</b></sub></a>
+    </td>
     </tr>
    
    
