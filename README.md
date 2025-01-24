@@ -52,8 +52,12 @@
     </td>
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/22-gradients-only"> <img class="img" src="assets/22.jpg" alt="Gradients Only" style="vertical-align:top;" width="500" /><br /><sub><b>January 22<br/>Gradients Only</b></sub></a>
     </td>
-      </td>
+    </td>
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/23-Inspired-by-brutalism"> <img class="img" src="assets/23.jpg" alt="Inspired by brutalism." style="vertical-align:top;" width="500" /><br /><sub><b>January 23<br/>Inspired by brutalism.</b></sub></a>
+    </td>
+    </td>
+    </td>
+       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/24-Geometric-art/L-system-Playground"> <img class="img" src="assets/24.jpg" alt="Geometric art" style="vertical-align:top;" width="500" /><br /><sub><b>January 23<br/>Geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape.</b></sub></a>
     </td>
     </tr>
    
@@ -80,6 +84,5 @@
 <p align="center"><img src="assets/cornu.gif" alt="Cornu spiral gif" width="500px"></p>
 
 <p align="center"><img src="assets/phyllotaxis.gif" alt="Phyllotaxis" width="500px"></p>
-
 
 <p align="center"><img src="assets/collision.gif" alt="collisions" width="500px"></p>
