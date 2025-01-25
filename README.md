@@ -60,6 +60,11 @@
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/24-Geometric-art/L-system-Playground"> <img class="img" src="assets/24.jpg" alt="Geometric art" style="vertical-align:top;" width="500" /><br /><sub><b>January 23<br/>Geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape.</b></sub></a>
     </td>
     </tr>
+    <tr>
+     </td>
+       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/25-one-line"> <img class="img" src="assets/25.jpg" alt="One line that may or may not intersect itself" style="vertical-align:top;" width="500" /><br /><sub><b>January 23<br/>One line that may or may not intersect itself</b></sub></a>
+    </td>
+    </tr>
    
    
    
