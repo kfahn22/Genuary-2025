@@ -64,6 +64,9 @@
      </td>
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/25-one-line"> <img class="img" src="assets/25.jpg" alt="One line that may or may not intersect itself" style="vertical-align:top;" width="500" /><br /><sub><b>January 25<br/>One line that may or may not intersect itself</b></sub></a>
     </td>
+   </td>
+       <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/26-symmetry/L-system-Playground"> <img class="img" src="assets/26.jpg" alt="Symmetry" style="vertical-align:top;" width="500" /><br /><sub><b>January 25<br/>Symmetry</b></sub></a>
+    </td>
     </tr>
    
    
