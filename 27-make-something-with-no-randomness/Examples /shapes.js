@@ -1,20 +1,36 @@
-// https://kfahn22.github.io/shape_playground/
-
 const e = 2.71828;
 
 class Shape {
-  constructor(r, a, b, m, n1, n2, n3, n, d, angle) {
+  constructor(r, a, b, m, n, n1, n2, n3, d, angle) {
     this.r = r;
     this.a = a;
     this.b = b;
+    this.m = m;
     this.n1 = n1;
     this.n2 = n2;
     this.n3 = n3;
-    this.m = m;
     this.n = n;
     this.d = d;
     this.angle = angle;
     this.points = [];
+  }
+
+  // https://mathcurve.com/courbes2d.gb/archimede/archimede.shtml
+
+  // n = 1 Archimedian Spiral
+  // n = -1 Hyperbolic Spiral
+  // n = 1/2 Fermat spiral
+  // n = -1/2 Lituus spiral
+  // n = 2 Galilean spiral
+  archimedesSpiral() {
+    let a = 0.1;
+    let dir = -1;
+    for (let theta = 0; theta < 4 * PI; theta += 0.05) {
+      let r = dir * a * pow(theta, this.n);
+      let x = this.r * r * cos(theta);
+      let y = this.r * r * sin(theta);
+      this.points.push(createVector(x, y));
+    }
   }
 
   arc() {
@@ -107,23 +123,6 @@ class Shape {
     }
   }
 
-  // http://paulbourke.net/geometry/chrysanthemum/
-
-  chrysanthemum() {
-    let N = 30000;
-    for (let theta = 0; theta < N; theta += 1) {
-      let u = (theta * 21.0 * PI) / N;
-      //console.log(u)
-      let r =
-        this.a *
-        (5 * (1 + sin((11 * u) / 5)) -
-          4 * pow(sin((17 * u) / 3), 4) * pow(sin(2 * cos(3 * u) - 28 * u), 8));
-      let x = this.r * r * cos(u);
-      let y = this.r * r * sin(u);
-      this.points.push(createVector(x, y));
-    }
-  }
-
   //https://mathcurve.com/courbes2d/ornementales/ornementales.shtml
 
   clover() {
@@ -172,17 +171,11 @@ class Shape {
     }
   }
 
-  // https://mathworld.wolfram.com/Cranioid.html
-  craniod() {
-    let p = 0.75;
-    let q = 0.75;
-    for (let theta = 0; theta < TWO_PI; theta += 0.05) {
-      let r =
-        this.a * sin(theta) +
-        this.b * sqrt(1 - p * pow(cos(theta), 2)) +
-        this.m * sqrt(1 - q * pow(cos(theta), 2));
-      let x = this.r * r * cos(theta);
-      let y = this.r * r * sin(theta);
+  // https://mathcurve.com/courbes2d.gb/croixdemalte/croixdemalte.shtml
+  malteseCross() {
+    for (let theta = 0.1; theta < TWO_PI; theta += 0.05) {
+      let x = this.r * +cos(theta) * (pow(cos(theta), 2) - this.a);
+      let y = this.r * +this.b * sin(theta) * pow(cos(theta), 2);
       this.points.push(createVector(x, y));
     }
   }
@@ -206,6 +199,8 @@ class Shape {
       this.points.push(createVector(x, y));
     }
   }
+
+  // https://thecodingtrain.com/challenges/55-mathematical-rose-patterns
 
   flower() {
     for (let theta = 0; theta < TWO_PI; theta += 0.01) {
@@ -236,18 +231,15 @@ class Shape {
   }
 
   // heart curve equation from https://mathworld.wolfram.com/HeartCurve.html
-  // https://thecodingtrain.com/challenges/134-heart-curve
 
   heart() {
-    for (let theta = 0; theta < 2 * PI; theta += 0.1) {
-      const x = 0.1 * this.r * 16 * pow(sin(theta), 3);
-      const y =
-        0.1 *
-        -this.r *
-        (13 * cos(theta) -
-          5 * cos(2 * theta) -
-          2 * cos(3 * theta) -
-          cos(4 * theta));
+    for (let theta = 0; theta < 2 * PI; theta += 0.05) {
+      const r =
+        2 -
+        2 * sin(theta) +
+        sin(theta) * (pow(abs(cos(theta)), 0.5) / (sin(theta) + 1.4));
+      const x = this.r * r * cos(theta);
+      const y = this.r * r * sin(theta);
       this.points.push(createVector(x, y));
     }
   }
@@ -289,26 +281,6 @@ class Shape {
     }
   }
 
-  // https://mathcurve.com/courbes2d.gb/croixdemalte/croixdemalte.shtml
-  malteseCross() {
-    for (let theta = 0.1; theta < TWO_PI; theta += 0.05) {
-      let x = this.r * +cos(theta) * (pow(cos(theta), 2) - this.a);
-      let y = this.r * +this.b * sin(theta) * pow(cos(theta), 2);
-      this.points.push(createVector(x, y));
-    }
-  }
-
-  // https://mathcurve.com/courbes2d/ornementales/ornementales.shtml
-  pinwheel() {
-    for (let theta = 0; theta < TWO_PI; theta += 0.01) {
-      let denom = 1 - 0.75 * pow(sin(this.m * theta), 2);
-      let r = pow(sin(4 * theta) / denom, 0.5);
-      let x = this.r * r * cos(theta);
-      let y = this.n * this.r * r * sin(theta);
-      this.points.push(createVector(x, y));
-    }
-  }
-
   quadrifolium() {
     let a = 1;
     for (let theta = 0; theta < TWO_PI; theta += 0.05) {
@@ -318,7 +290,7 @@ class Shape {
     }
   }
 
-  polygon() {
+  quadrilaterial() {
     for (let theta = 0; theta < TWO_PI; theta += TWO_PI / this.m) {
       let x = this.r * cos(theta);
       let y = this.r * sin(theta);
@@ -381,7 +353,7 @@ class Shape {
 
   superellipse() {
     for (let theta = 0; theta < TWO_PI; theta += 0.05) {
-      let na = 2 / this.m;
+      let na = 2 / this.n;
       let x = this.r * pow(abs(cos(theta)), na) * this.a * this.sgn(cos(theta));
       let y = this.r * pow(abs(sin(theta)), na) * this.b * this.sgn(sin(theta));
       this.points.push(createVector(x, y));
@@ -405,7 +377,7 @@ class Shape {
   }
 
   supershape() {
-    for (let theta = 0; theta <= TWO_PI; theta += 0.05) {
+    for (let theta = 0; theta <= TWO_PI; theta += 0.025) {
       let r = this.superformula(theta);
       let x = this.r * r * cos(theta);
       let y = this.r * r * sin(theta);
@@ -424,17 +396,6 @@ class Shape {
     }
   }
 
-  // https://mathcurve.com/courbes2d.gb/abdank/abdank.shtml
-
-  zigzag() {
-    for (let theta = -PI / 2; theta < this.a * PI; theta += 0.1) {
-      let x = this.r * sin(theta);
-      let y =
-        ((this.r * pow(this.n, 2)) / 2) * (theta + sin(theta) * cos(theta));
-      this.points.push(createVector(x, y));
-    }
-  }
-
   show() {
     push();
     rotate(this.angle);
@@ -446,15 +407,14 @@ class Shape {
     pop();
   }
 
-  // showImage(images) {
-  //   let n = images.length;
-  //   let i = floor(random(n));
-  //   let img = images[i];
-  //   push();
-  //   rotate(this.angle);
-  //   image(img, 0, 0, this.r, this.r);
-  //   pop();
-  // }
+  showImage(images) {
+    let i = floor(random(10));
+    let img = images[i];
+    push();
+    rotate(this.angle);
+    image(img, 0, 0, this.r, this.r);
+    pop();
+  }
 
   openShow() {
     push();
