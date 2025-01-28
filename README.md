@@ -70,11 +70,11 @@
      </td>
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/27-make-something-with-no-randomness/L-system-Playground"> <img class="img" src="assets/27.jpg" alt="No randomness or trig" style="vertical-align:top;" width="500" /><br /><sub><b>January 27<br/>Make something interesting with no randomness or noise or trig.</b></sub></a>
     </td>
-    </tr>
-    <tr><td>
     </td>
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/28-infinite-scroll"> <img class="img" src="assets/28.jpg" alt="Infinite Scroll" style="vertical-align:top;" width="500" /><br /><sub><b>January 28<br/>Infinite Scroll</b></sub></a>
-    </td></td></tr>
+    </td>
+    </tr>
+    
    
    
    
@@ -102,5 +102,5 @@
 
 <p align="center"><img src="assets/collision.gif" alt="collisions" width="500px"></p>
 
-<p align="center"><img src="assets/infinite-circles.gif" alt="collisions" width="500px"></p>
+<p align="center"><img src="assets/inifinite-circles.gif" alt="infinite-circles" width="500px"></p>
 
