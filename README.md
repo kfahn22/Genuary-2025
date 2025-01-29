@@ -74,9 +74,10 @@
        <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/28-infinite-scroll"> <img class="img" src="assets/28.jpg" alt="Infinite Scroll" style="vertical-align:top;" width="500" /><br /><sub><b>January 28<br/>Infinite Scroll</b></sub></a>
     </td>
     </tr>
-    
-   
-   
+    <tr>
+     <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/29-grid-based-graphic-design"> <img class="img" src="assets/29.jpg" alt="Grid-based graphic design." style="vertical-align:top;" width="500" /><br /><sub><b>January 29<br/>Grid-based graphic design.</b></sub></a>
+    </td>
+    </tr>
    
    </tbody>
 </table>
