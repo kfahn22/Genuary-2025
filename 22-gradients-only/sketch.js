@@ -148,10 +148,14 @@ function gradientGrid(x, y, nrows, ncols, cellSize, offset) {
 }
 
 function addLinearGradient(x, y, w, h, col1, col2) {
-  let gradient = drawingContext.createLinearGradient(x, y, x + w, y + h);
-  gradient.addColorStop(0, col1.toString());
-  gradient.addColorStop(1, col2.toString());
-  drawingContext.fillStyle = gradient;
+  fillGradient("linear", {
+    from: [x, y],
+    to: [x + w, y + w],
+    steps: [
+      [col1, 0],
+      [col2, 1],
+    ],
+  });
   rect(x, y, w, h);
 }
 
