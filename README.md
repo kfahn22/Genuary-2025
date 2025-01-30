@@ -77,6 +77,8 @@
     <tr>
      <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/29-grid-based-graphic-design"> <img class="img" src="assets/29.jpg" alt="Grid-based graphic design." style="vertical-align:top;" width="500" /><br /><sub><b>January 29<br/>Grid-based graphic design.</b></sub></a>
     </td>
+     <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/30-abstract-map"> <img class="img" src="assets/30.jpg" alt="Abstract Map" style="vertical-align:top;" width="500" /><br /><sub><b>January 30<br/>Abtract Map.</b></sub></a>
+    </td>
     </tr>
    
    </tbody>
