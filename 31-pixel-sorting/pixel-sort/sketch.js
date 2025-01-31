@@ -1,10 +1,15 @@
-// https://editor.p5js.org/kfahn/sketches/M3k5BJI29
+// Pixel sorting code from Daniel Shiffman
+// https://thecodingtrain.com/challenges/47-pixel-sorting-in-processing
+// Code to extract tiles also from Daniel Shiffman
+
 
 let img;
 let sorted;
 let tiles = [];
 const TILE_SIZE = 18;
 
+// I used in pin from Pinterest in figure out the indices for the butterfly grid pattern
+// https://www.pinterest.com/pin/17803361023896349/
 let butterfly = [
   56, 80, 81, 82, 105, 108, 129, 133, 154, 159, 179,   204, 210, 213, 229, 237,
   262, 278, 279, 280, 287, 291, 302, 306, 307,310,  312, 313, 314, 315, 327, 333,
