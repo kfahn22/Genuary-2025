@@ -79,6 +79,9 @@
     </td>
      <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/30-abstract-map"> <img class="img" src="assets/30.jpg" alt="Abstract Map" style="vertical-align:top;" width="500" /><br /><sub><b>January 30<br/>Abtract Map.</b></sub></a>
     </td>
+    </td>
+     <td align="center"><a href="https://github.com/kfahn22/Genuary-2025/tree/main/31-pixel-sorting"> <img class="img" src="assets/31.jpg" alt="Pixel Sorting" style="vertical-align:top;" width="500" /><br /><sub><b>January 31<br/>Pixel Sorting.</b></sub></a>
+    </td>
     </tr>
    
    </tbody>
